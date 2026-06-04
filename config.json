@@ -1,0 +1,53 @@
+{
+  "ffmpeg_path": "C:\\ffmpeg\\bin\\ffmpeg.exe",
+  "wall": {
+    "title": "MWE Multiview 1",
+    "header_height": 60
+  },
+  "layout": {
+    "columns": 3,
+    "video_width": 620,
+    "video_height": 318,
+    "channel_header_height": 28,
+    "audio_meter_height": 22,
+    "fps": 5
+  },
+  "channels": [
+    {
+      "name": "AntenaHD",
+      "url": "https://xxxxx/AntenaHD/index.m3u8"
+    },
+    {
+      "name": "TVC",
+      "url": "https://xxxxx/TVC/index.m3u8"
+    },
+    {
+      "name": "TVC Reality",
+      "url": "https://xxxxx/TVCReality/index.m3u8"
+    },
+    {
+      "name": "TVC Super",
+      "url": "https://xxxxx/TVCSuper/index.m3u8"
+    },
+    {
+      "name": "FilmaxHD",
+      "url": "https://xxxxx/FilmaxHD/index.m3u8"
+    },
+    {
+      "name": "FilmaxCafe",
+      "url": "https://xxxxx/FilmaxCafe/index.m3u8"
+    },
+    {
+      "name": "HomeTV",
+      "url": "https://xxxxx/HomeTV/index.m3u8"
+    },
+    {
+      "name": "Pogoda24",
+      "url": "https://xxxxx/Pogoda24/index.m3u8"
+    },
+    {
+      "name": "WTK",
+      "url": "https://xxxxx/WTK/index.m3u8"
+    }
+  ]
+}
