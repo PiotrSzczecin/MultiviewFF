@@ -1,6 +1,5 @@
 # MultiviewFF
 Lekki system multiviewerów IPTV/HLS oparty o FFmpeg + Python, przeznaczony do monitoringu kanałów telewizyjnych w środowisku MCR/NOC.  Projekt umożliwia generowanie wielu ścian monitorujących (multiview) z kanałów HLS/IPTV z minimalnym zużyciem CPU, działających lokalnie lub zdalnie przez przeglądarkę WWW.
-Lekki system multiviewerów IPTV/HLS oparty o FFmpeg + Python, przeznaczony do monitoringu kanałów telewizyjnych w środowisku MCR/NOC. Projekt umożliwia generowanie wielu ścian monitorujących (multiview) z kanałów HLS/IPTV z minimalnym zużyciem CPU, działających lokalnie lub zdalnie przez przeglądarkę WWW.
 
 WYMAGANIA
 
@@ -44,13 +43,10 @@ python -m http.server 8080
 
 4. Otwórz:
 http://localhost:8081/player.html
-http://localhost:8082/player.html
-http://localhost:8083/player.html
+
 
 Alternatywnie VLC:
 http://localhost:8081/hls/index.m3u8
-http://localhost:8082/hls/index.m3u8
-http://localhost:8083/hls/index.m3u8
 
 KONFIGURACJA
 
